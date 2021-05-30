@@ -12,3 +12,7 @@ This Project is about traveling across the US. It shows some information and pic
 - Flexbox layout
 - Grid layout
 - Media Queries
+
+## Link to the project
+
+https://valbkt.github.io/web_project_3/
