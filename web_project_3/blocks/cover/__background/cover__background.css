@@ -1,0 +1,14 @@
+.cover__background {
+  display: flex;
+  width: 100%;
+  min-height: 740px;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/cover_image.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-decoration: none;
+}
