@@ -5,6 +5,7 @@
   font-weight: 900;
   font-size: 40px;
   line-height: 44px;
+  position: center;
 }
 
 @media screen and (min-width: 768px) {

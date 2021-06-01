@@ -1,4 +1,5 @@
 .lead {
+  display: flex;
   min-width: 320px;
   color: white;
   flex-direction: column;
