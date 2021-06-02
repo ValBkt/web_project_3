@@ -1,9 +1,10 @@
 .lead__image {
-  width: calc(100% + 32px);
+  width: 100%;
+  min-width: 320px;
   overflow: hidden;
-  display: block;
   margin: 40px 0 0 0;
 }
+
 @media screen and (min-width: 768px) {
   .lead__image {
     width: 768px;
