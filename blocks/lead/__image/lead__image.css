@@ -19,7 +19,9 @@
 }
 @media screen and (min-width: 1280px) {
   .lead__image {
-    width: calc(100% - (2 * 148px));
+    min-width: calc(100% - (2 * 148px));
+    width: 100%;
     margin-top: 64px;
+    align-self: center;
   }
 }
