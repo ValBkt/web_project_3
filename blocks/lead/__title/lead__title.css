@@ -22,6 +22,7 @@
 }
 @media screen and (min-width: 1280px) {
   .lead__title {
-    max-width: calc(100% - (2 * 280px));
+    max-width: 740px;
+    margin: 0 auto 32px;
   }
 }
