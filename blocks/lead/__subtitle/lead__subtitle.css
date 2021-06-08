@@ -7,7 +7,6 @@
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-  position: center;
 }
 @media screen and (min-width: 768px) {
   .lead__subtitle {
@@ -20,15 +19,11 @@
 @media screen and (min-width: 1024px) {
   .lead__subtitle {
     max-width: calc(100% - (2 * 202px));
-    font-size: 30px;
-    line-height: 36px;
   }
 }
 @media screen and (min-width: 1280px) {
   .lead__subtitle {
     max-width: 620px;
     margin: 0 auto 64px;
-    font-size: 30px;
-    line-height: 36px;
   }
 }

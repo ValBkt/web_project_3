@@ -3,4 +3,6 @@
   align-items: flex-end;
   justify-content: space-between;
   min-height: 78px;
+  margin: 0 auto;
+  color: white;
 }
