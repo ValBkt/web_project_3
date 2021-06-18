@@ -1,16 +1,11 @@
 .place__website {
   display: block;
+  align-self: end;
 }
 
 @media screen and (max-width: 768px) {
   .place__website {
     margin-bottom: 30px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .place__website {
-    display: block;
-    align-self: end;
+    margin-left: 16px;
   }
 }

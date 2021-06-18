@@ -1,8 +1,10 @@
-.place__text-container {
+.place__text-paragraph {
+  grid-area: place__text-paragraph;
   width: calc(100% - 32px);
 }
+
 @media screen and (min-width: 768px) {
-  .place__text-container {
+  .place__text-paragraph {
     width: 100%;
   }
 }

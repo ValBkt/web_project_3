@@ -1,19 +1,20 @@
 .place {
-  display: grid;
+  display: flex;
   flex-direction: column;
+  align-items: center;
   color: white;
   list-style: none;
 }
 
 @media screen and (min-width: 768px) {
   .place {
-    width: calc(100% - (2 * 24px));
     display: grid;
+    width: calc(100% - (2 * 24px));
     grid-template-columns: 340fr 352fr;
     grid-template-areas:
       "place__title place__website"
-      "place__image place__text-container";
-    grid-gap: 48px 28px;
+      "place__image place__text-paragraph";
+    grid-gap: 0px 28px;
     align-items: normal;
   }
 }

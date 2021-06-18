@@ -1,12 +1,6 @@
 .place__image {
   width: 100%;
   margin: 0 0 32px 0;
-  overflow: hidden;
-}
-@media screen and (max-width: 768px) {
-  .place__image {
-    width: 320px;
-  }
 }
 
 @media screen and (min-width: 768px) {
